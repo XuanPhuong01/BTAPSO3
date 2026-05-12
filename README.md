@@ -67,59 +67,26 @@ File `docker-compose.yml` sẽ được cấu hình gồm các service:
 ## Bước 3. Khởi động hệ thống 
 ```bash
 # Chạy tất cả các service để pull dịch vụ
-docker compose up -d
+docker-compose up -d
 ```
-
-<img width="1003" height="261" alt="image" src="https://github.com/user-attachments/assets/d84df3bd-3eaa-4788-9aa2-c9767a7821cc" />
-
-Kiểm tra trạng thái các container: 
+<img width="1028" height="306" alt="image" src="https://github.com/user-attachments/assets/7e124ea5-cda1-4c0a-895f-275aaa27aa6f" />
 ```
-docker ps
-```
-
-Nếu có lỗi, xem logs
-```
-
-
-```
-
-<img width="1849" height="172" alt="image" src="https://github.com/user-attachments/assets/4447f24b-cbbe-456d-8e1f-21e5be91ec09" />
-
 ---
 
 # TRUY CẬP VÀO CÁC DỊCH VỤ
-## Truy cập  PhpMyadmin
-```
-192.168.100.2:9090
-```
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d1f5060b-80dd-4e3c-b9b6-55a5aec70a7a" />
 
 ## Truy cập trang wordpress
 ```
-192.168.100.2:9000 
+localhost:8000
 ```
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e862e87a-5702-4e98-8d41-d94e5bfab298" />
-
----
 
 # THIẾT LẬP WORDPRESS BAN ĐẦU VÀ TẠO BÀI ĐĂNG
 ## Thiết lập wordpress
-1. Truy cập vào `192.168.100.2:9000 ` trên trình duyệt 
-2. Chọn ngôn ngữ
 
-<img width="964" height="1011" alt="image" src="https://github.com/user-attachments/assets/6ca1ebd4-36b5-4788-a404-b47b0b37672e" /> <br>
+ Nhấn **Cài đặt wordpress*** sau đó đăng nhập vào trang quản trị
 
-4. Điền thông tin quản trị
-- Tên trang web (Site title)
-- Username: Tên user admin (Ví dụ như: Admin_wordpress)
-- Password: Thiết lập mật khẩu mạnh
-- Email: Nhập email của bạn
+<img width="833" height="805" alt="Screenshot 2026-05-12 083737" src="https://github.com/user-attachments/assets/29eea48e-ad72-4d4c-9d06-dd450a541b45" />
 
-<img width="1919" height="1031" alt="image" src="https://github.com/user-attachments/assets/b816674c-6f7a-43a0-a680-ab76e53c4824" /> <br>
-5. Nhấn **Cài đặt wordpress*** sau đó đăng nhập vào trang quản trị
-<img width="1875" height="684" alt="image" src="https://github.com/user-attachments/assets/719a0fd3-6101-43ed-a3cd-a92edd5f79c0" /> <br>
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f461420e-e88a-4960-b515-12c362b1d82d" />
 
 ## TẠO HAI BÀI ĐĂNG
 Quy trình tạo bài đăng
@@ -132,24 +99,21 @@ Quy trình tạo bài đăng
 <img width="1914" height="974" alt="image" src="https://github.com/user-attachments/assets/95024ba4-4bae-499a-8690-d8f6b829d131" />
 
 ### Bài viết 1: Giới thiệu về bản thân
-<img width="1917" height="946" alt="image" src="https://github.com/user-attachments/assets/3a2b579c-1989-44bc-8825-409c84cfd6f2" /> <br>
 
-<img width="1887" height="954" alt="image" src="https://github.com/user-attachments/assets/1e5f43b4-281e-470b-91aa-cb4f504b2329" /> <br>
+link bài viết:  https://gates-regression-stronger-coordinate.trycloudflare.com   
 
-<img width="1902" height="949" alt="image" src="https://github.com/user-attachments/assets/ef1e9516-d716-42e2-969b-fc18c6c1ceca" /> <br>
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/20a5ee53-6480-4e6e-9b23-78f583b4fafc" />
 
-<img width="1703" height="961" alt="image" src="https://github.com/user-attachments/assets/e50c9fae-5561-4487-9d23-965c0c5be785" /> <br>
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/7c9d61f4-f99e-4db1-8b0e-5f98fa69b3bc" />
 
-<img width="1760" height="958" alt="image" src="https://github.com/user-attachments/assets/f04d3ee0-84ae-43bf-8456-d659cda20b77" />
 
 ### Bài viết 2: Giới thiệu ngành Kỹ thuật máy tính
-<img width="1919" height="994" alt="image" src="https://github.com/user-attachments/assets/70027e14-3e07-48de-920c-46fab2705fcf" /> <br>
 
-<img width="1918" height="966" alt="image" src="https://github.com/user-attachments/assets/0ce895dc-ae6d-4649-865d-cfdf0a91b7b8" /> <br>
+link bài viết: https://chat-style-compute-acute.trycloudflare.com 
 
-<img width="1900" height="982" alt="image" src="https://github.com/user-attachments/assets/ee8041bd-ce3a-48ab-a6eb-391bc42475f4" /> <br>
+<img width="1907" height="1075" alt="image" src="https://github.com/user-attachments/assets/287abb26-e0e1-4dc5-9e53-ac7ec8514cf5" />
 
-<img width="1828" height="961" alt="image" src="https://github.com/user-attachments/assets/29a11f76-f729-42ca-a6de-d7a7a907f16a" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/368bf07c-f81c-4262-ab5a-7634dc085497" />
 
 ---
 
