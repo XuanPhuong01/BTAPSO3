@@ -100,7 +100,6 @@ Quy trình tạo bài đăng
 
 ### Bài viết 1: Giới thiệu về bản thân
 
-link bài viết:  https://gates-regression-stronger-coordinate.trycloudflare.com   
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/20a5ee53-6480-4e6e-9b23-78f583b4fafc" />
 
@@ -109,7 +108,6 @@ link bài viết:  https://gates-regression-stronger-coordinate.trycloudflare.co
 
 ### Bài viết 2: Giới thiệu ngành Kỹ thuật máy tính
 
-link bài viết: https://chat-style-compute-acute.trycloudflare.com 
 
 <img width="1907" height="1075" alt="image" src="https://github.com/user-attachments/assets/287abb26-e0e1-4dc5-9e53-ac7ec8514cf5" />
 
@@ -117,4 +115,6 @@ link bài viết: https://chat-style-compute-acute.trycloudflare.com
 
 ---
 
-## Sử dụng Claudflare tunnel để public web 
+## 3. Nhận xét
+- **Độ khó:** Dễ tiếp cận hơn Django do giao diện quản trị trực quan.
+- **Tài nguyên:** Chiếm dụng RAM đáng kể (~600MB) nhưng mang lại hiệu quả quản lý nội dung vượt trội.
